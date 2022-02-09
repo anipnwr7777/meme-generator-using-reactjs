@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* **************************- header - ********************** */
+
+.topHeader{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 1rem;
+    background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+    color: white;
+    height: 80px;
+}
+
+.topHeader img{
+    height: 50px;
+    margin: 0rem 1.5rem;
+}
+
+.topHeader > h1{
+    font-weight: 500;     
+    font-size: clamp(1.5rem, 5vw, 2rem);       
+}
+
+/* **************************- header - ********************** */
+
+/* **************************- user-input - ********************** */
+
+#user-inputs{
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: auto;
+    padding: 1rem;
+    /* background-color: gray; */
+}
+
+#user-input-wrapper{
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 0;
+}
+
+#user-inputs input, #user-inputs button{
+    height: 2rem;
+    border-radius: 5px;
+    border: 2px solid rgb(231, 230, 230);
+}
+
+#user-inputs input{
+    width: min(177px, 48%);
+}
+
+#user-inputs button{
+    background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#user-inputs img{
+    margin: 2rem;
+    max-width: 82%;
+    min-height: 50vh;
+}
+
+#user-inputs--image-container{
+    position: relative;
+}
+
+.user-inputs--image-topText{
+    position: absolute;
+    top: 2.5rem;
+    left: 15%;
+    color: white;
+    text-shadow: 0 0 3px black;
+}
+
+.user-inputs--image-bottomText{
+    position: absolute;
+    bottom: 2.5rem;
+    left: 15%;
+    color: white;
+    text-shadow: 0 0 3px black;
+}
+
+
+/* **************************- user-input - ********************** */
+
